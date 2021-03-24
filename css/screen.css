@@ -56,6 +56,12 @@ html {
   text-shadow: none;
 }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
 /*------------------------------------*\
   #Elements
 \*------------------------------------*/
@@ -76,7 +82,11 @@ img {
     ---
     Default markup for typographic elements
 */
-
+h1,
+h2,
+h3 {
+  font-weight: 200;
+}
 h1 {
   font-size: 36px;
   line-height: 48px;
@@ -209,7 +219,7 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 90em; /* 90 * 16px = 1440px */
+  max-width: 56.4m; /* 90 * 16px = 1440px */
 }
 
 /*
